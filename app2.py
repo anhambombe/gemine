@@ -89,7 +89,7 @@ if st.session_state.enter_pressed is False and st.session_state.input_text != in
 
 # Sidebar with chat history and image
 with st.sidebar:
-    st.sidebar.image("https://images.squarespace-cdn.com/content/v1/59ae4a2a6f4ca38d47990cd8/1632891040670-GS300W3NBRP9KSN1X6K9/AI.png", use_column_width=True)
+    st.sidebar.image("https://xiteb.com/img/technologies/ai.png", use_column_width=True)
     st.subheader("...Histórico do chat...")
 
     for role, text in st.session_state['chat_history']:
